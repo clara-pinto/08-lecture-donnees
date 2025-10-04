@@ -28,7 +28,6 @@ def read_data(filename):
     l = [[int(val) for val in ligne] for ligne in l]
     return l
 
-#donnees = [[int(val) for val in ligne.strip().split(";")] for ligne in lignes]
 
 def get_list_k(data, k):
     '''
